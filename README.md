@@ -65,9 +65,31 @@ py -m pip install jupyter
 
 2. Launch Jupyter Notebook:
 
-'''shell
+```shell
 jupyter notebook
-'''
+```
+
+3. Open the ```braun_eda_notebook.ipynb``` file from the jupyter dashboard.
+   
+4.  Run all cells sequentially to execute the analysise and generate the visualizations.
+
+## **Dependencies**
+
+The analysis requires the following Python packages, which are included in the ```requirements.txt``` file:
+
+* ```pandas```
+* ```seaborn```
+* ```matplotlib```
+* ```numpy```
+* ```jupyter```
+
+To install them, run:
+```shell
+py -m pip install -r requirements.txt
+```
+
+## **Key Insights**
+
 
 
 ## Troubleshooting and Tips
