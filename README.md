@@ -1,11 +1,8 @@
-# Create and write the README.md file
-readme_content = """# DataFun Project
-
 ## Project Requirements
 
 - VS Code
 - Git
-- Python
+- Python 
 
 ## Commands to Manage Virtual Environment
 
@@ -17,94 +14,63 @@ py -m venv .venv
 .\.venv\Scripts\activate
 py -m pip install --upgrade pip setuptools wheel
 py -m pip install --upgrade -r requirements.txt
-Commands to Run Python Scripts
+```
+
+## Commands to Run Python Scripts
+
 Remember to activate your .venv (and install packages if they haven't been installed yet) before running files.
 
-shell
+```shell
 py demo-script.py
-Commands to Git add-commit-push
-shell
+```
+
+## Commands to Git add-commit-push
+
+```shell
 git add .
 git commit -m "custom message"
 git push -u origin main
-Iris Dataset Exploratory Data Analysis (EDA)
-Overview
-This project includes an exploratory data analysis (EDA) of the famous Iris dataset, performed within a Jupyter Notebook. The analysis leverages pandas, Seaborn, and Matplotlib to uncover patterns, relationships, and insights within the data.
+```
+## **Additional Project: Iris Dataset Exploratory Data Analysis (EDA)**
 
-Author: Christopher Braun
-Purpose: Exploratory Data Analysis of the Iris dataset using pandas and visualization tools.
-Date: September 2025
+## **Overview**
 
-Key Features
-Data Loading & Inspection: Loads the dataset and examines its structure, shape, and data types.
+This project includes a Jupyter Notebook (iris_eda.ipynb) that performs an exploratory data analysis (EDA) on the famous Iris dataset. The analysis leverages pandas, Seaborn, and Matplotlib to uncover patterns, relationships, and insights within the data.
 
-Summary Statistics: Provides descriptive statistics to understand central tendency and dispersion.
+## **Purpose**
 
-Data Distribution: Visualizes distributions of numerical and categorical columns using histograms and count plots.
+* Demonstrate EDA techniques using Python.
 
-Data Transformation: Includes feature engineering to create new columns like sepal_area_cm2 and petal_area_cm2.
+* Visualize distributions, correlations, and categorical data.
 
-Advanced Visualizations: Generates pair plots, scatter plots, box plots, and a correlation heatmap to reveal relationships between variables and across species.
+* Practice data transformation and feature engineering.
 
-How to Run the Analysis
-Ensure Jupyter is installed. If not, install it using:
+## **Key Features**
 
-powershell
-py -m pip install jupyter
-Launch Jupyter Notebook from your project directory:
+* Data loading and inspection.
 
-powershell
-jupyter notebook
-Open the iris_eda.ipynb file from the Jupyter dashboard.
+* Summary statistics and distribution visualizations.
 
-Run all cells sequentially to execute the analysis and generate the visualizations.
+* Feature engineering (e.g., calculating sepal and petal areas).
 
-Dependencies
-The analysis requires the following Python packages, which are included in the requirements.txt file:
+* Advanced visualizations: pair plots, scatter plots, box plots, and heatmaps.
 
-pandas
+## **How to Run the Notebook**
 
-seaborn
+1. Ensure you have Jupyter installed. If not, install it via:
+' py -m pip install jupyter '
 
-matplotlib
+## Troubleshooting and Tips
+- See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 
-numpy
+## Additional Resources 
+- See [RESOURCES.md](docs/RESOURCES.md)
 
-jupyter
+## Reference Projects
 
-To install them, run:
+Custom implementation of the example project at 
+[datafun-04-notebooks](https://github.com/denisecase/datafun-04-notebooks/)
 
-powershell
-py -m pip install -r requirements.txt
-Key Insights
-The analysis revealed:
-
-Species Distinction: The three iris species (setosa, versicolor, virginica) are clearly distinguishable based on their measurements, particularly petal dimensions.
-
-Measurement Patterns: Setosa has the smallest petals but the widest sepals, while Virginica has the largest petals on average.
-
-Strong Correlations: Petal length and width are highly correlated (0.96).
-
-Feature Utility: Engineered features (e.g., sepal area, petal area) provide additional dimensions that could be useful for classification tasks.
-
-Data Quality: The dataset is complete with no missing values and is perfectly balanced across the three species.
-
-Files
-iris_eda.ipynb: The Jupyter Notebook containing the complete EDA.
-
-Troubleshooting and Tips
-See TROUBLESHOOTING.md
-
-Additional Resources
-See RESOURCES.md
-
-Reference Projects
-Custom implementation of the example project at
-datafun-04-notebooks
-
-datafun-03-analytics
-
-datafun-02-project-setup
-
-datafun-01-utils
-"""
+- [datafun-03-analytics](https://github.com/denisecase/datafun-03-analytics/)
+- [datafun-02-project-setup](https://github.com/denisecase/datafun-02-project-setup/)
+- [datafun-01-utils](https://github.com/denisecase/datafun-01-utils/)
