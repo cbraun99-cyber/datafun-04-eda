@@ -32,6 +32,73 @@ git commit -m "custom message"
 git push -u origin main
 ```
 
+Additional Project: Iris Dataset Exploratory Data Analysis (EDA)
+Overview
+This project includes a Jupyter Notebook (iris_eda.ipynb) that performs an exploratory data analysis (EDA) on the famous Iris dataset. The analysis leverages pandas, Seaborn, and Matplotlib to uncover patterns, relationships, and insights within the data.
+
+Purpose
+Demonstrate EDA techniques using Python.
+
+Visualize distributions, correlations, and categorical data.
+
+Practice data transformation and feature engineering.
+
+Key Features
+Data loading and inspection.
+
+Summary statistics and distribution visualizations.
+
+Feature engineering (e.g., calculating sepal and petal areas).
+
+Advanced visualizations: pair plots, scatter plots, box plots, and heatmaps.
+
+How to Run the Notebook
+Ensure you have Jupyter installed. If not, install it via:
+
+powershell
+py -m pip install jupyter
+Launch Jupyter Notebook:
+
+powershell
+jupyter notebook
+Open iris_eda.ipynb from the list of files.
+
+Run the cells sequentially to reproduce the analysis.
+
+Dependencies
+The notebook requires the following Python packages (already included in requirements.txt):
+
+pandas
+
+seaborn
+
+matplotlib
+
+numpy
+
+If not already installed, run:
+
+powershell
+py -m pip install -r requirements.txt
+Insights
+The analysis reveals:
+
+Clear distinction between Iris species based on petal measurements.
+
+Strong correlation between petal length and width.
+
+Utility of engineered features (e.g., sepal area) for classification tasks.
+
+Files
+iris_eda.ipynb: Jupyter Notebook containing the full EDA.
+
+iris.csv: Local copy of the Iris dataset (if used).
+
+References
+Seaborn Datasets
+
+Pandas Documentation
+
 ## Troubleshooting and Tips
 - See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
 
