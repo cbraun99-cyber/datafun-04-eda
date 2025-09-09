@@ -63,6 +63,12 @@ This project includes a Jupyter Notebook (iris_eda.ipynb) that performs an explo
 py -m pip install jupyter
 ```
 
+2. Launch Jupyter Notebook:
+
+'''shell
+jupyter notebook
+'''
+
 
 ## Troubleshooting and Tips
 - See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
