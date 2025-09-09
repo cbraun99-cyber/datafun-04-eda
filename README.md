@@ -58,9 +58,11 @@ This project includes a Jupyter Notebook (iris_eda.ipynb) that performs an explo
 ## **How to Run the Notebook**
 
 1. Ensure you have Jupyter installed. If not, install it via:
-''' powershell
+
+```shell
 py -m pip install jupyter
-'''
+```
+
 
 ## Troubleshooting and Tips
 - See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
