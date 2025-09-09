@@ -90,7 +90,21 @@ py -m pip install -r requirements.txt
 
 ## **Key Insights**
 
+The analysis revealed:
 
+1. **Species Distinction:** The three iris species (setosa, versicolor, virginica) are clearly distinguishable based on their measurements, particularly petal dimensions.
+
+2. **Measurement Patterns:** Setosa has the smallest petals but the widest sepals, while Virginica has the largest petals on average.
+
+3. **Strong Correlations:** Petal length and width are highly correlated (0.96).
+
+4. **Feature Utility:** Engineered features (e.g., sepal area, petal area) provide additional dimensions that could be useful for classification tasks.
+
+5. **Data Quality:** The dataset is complete with no missing values and is perfectly balanced across the three species.
+
+### **Files**
+
+* ```braun_eda_notebook.ipynb```: The Jupyter Notebook containing the complete EDA.
 
 ## Troubleshooting and Tips
 - See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
